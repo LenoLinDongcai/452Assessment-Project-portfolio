@@ -1,0 +1,137 @@
+Leno, LinDongcai
+
+
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+  }  
+  
+  .header {  
+    background-color: #f8f9fa;  
+    text-align: center;  
+    padding: 20px;  
+  }  
+  
+  .topnav {  
+    background-color: #333;  
+    overflow: hidden;  
+  }  
+  
+  .topnav a {  
+    float: left;  
+    display: block;  
+    color: #f2f2f2;  
+    text-align: center;  
+    padding: 14px 16px;  
+    text-decoration: none;  
+  }  
+  
+  .topnav a:hover {  
+    background-color: #ddd;  
+    color: black;  
+  }  
+  
+  .content {  
+    display: flex;  
+  }  
+  
+  .leftcolumn {  
+    flex: 3; 
+    padding-right: 20px;  
+  }  
+  
+  .rightcolumn {  
+    flex: 1;
+  }  
+  
+  .card {  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);  
+    padding: 16px;  
+    margin-bottom: 20px;  
+  }  
+  
+  .fakeimg {  
+    height: 500px;  
+    background: #aaa;  
+    margin-bottom: 30px;  
+  }  
+
+  .Sideimage {  
+    height: 200px;  
+    width: auto;
+  }  
+  
+  .footer {  
+    text-align: center;  
+    padding: 10px;  
+    background-color: #333;  
+    color: white;  
+  }  
+  
+  @media screen and (max-width: 600px) {  
+    .content {  
+      flex-direction: column;  
+    }  
+    .leftcolumn, .rightcolumn {  
+      flex: 1;  
+    }  
+  }  
+
+
+
+  body.style1 {  
+    font-family: Arial, sans-serif;  
+    background-color: #f0f0f0; 
+    margin: 0;  
+    padding: 0;  
+    background-image: url("Home.jpg");  
+    background-size: cover;  
+    background-repeat: no-repeat;  
+    background-position: center;  
+}  
+
+.report-cover1 {  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    justify-content: center;  
+    height: 100vh;  
+    text-align: center;  
+    color: #333;  
+}  
+
+.report-cover1 h1 {  
+    font-size: 3em;  
+    margin: 0;  
+}  
+
+.report-cover1 h2 {  
+    font-size: 2em;  
+    margin: 10px 0;  
+}  
+
+.report-cover1 .sections1 {  
+    display: flex;  
+    justify-content: space-around;  
+    margin-top: 30px;  
+}  
+
+.report-cover1 .section1 {  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+}  
+
+.report-cover1 .section1 img {  
+    width: 50px; /* 图标大小 */  
+    height: 50px;  
+    margin-bottom: 5px;  
+}  
+
+.report-cover1 .hello-world {  
+    background-color: #33adcc; /* 自定义蓝色 */  
+    color: white;  
+    padding: 10px;  
+    margin-top: 30px;  
+}  
